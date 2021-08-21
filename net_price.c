@@ -11,7 +11,7 @@ void main()
      scanf("%d", &price);
 
      // Process
-     discount = 10 / 100  * price;   //  price * 0.10
+     discount = price * 10 / 100;   //  price * 0.10
      netprice = price - discount;
 
      // Output
